@@ -1,0 +1,191 @@
+01-Sep-2017 20:11:49.492 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.24
+01-Sep-2017 20:11:49.492 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 1 2015 20:19:55 UTC
+01-Sep-2017 20:11:49.492 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.24.0
+01-Sep-2017 20:11:49.492 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+01-Sep-2017 20:11:49.492 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+01-Sep-2017 20:11:49.508 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+01-Sep-2017 20:11:49.508 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_101\jre
+01-Sep-2017 20:11:49.508 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_101-b13
+01-Sep-2017 20:11:49.508 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+01-Sep-2017 20:11:49.508 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Temp\LP3\servidor\apache-tomcat-8.0.24
+01-Sep-2017 20:11:49.508 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Temp\LP3\servidor\apache-tomcat-8.0.24
+01-Sep-2017 20:11:49.508 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Temp\LP3\servidor\apache-tomcat-8.0.24\conf\logging.properties
+01-Sep-2017 20:11:49.508 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+01-Sep-2017 20:11:49.508 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Temp\LP3\servidor\apache-tomcat-8.0.24\endorsed
+01-Sep-2017 20:11:49.508 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Temp\LP3\servidor\apache-tomcat-8.0.24
+01-Sep-2017 20:11:49.508 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Temp\LP3\servidor\apache-tomcat-8.0.24
+01-Sep-2017 20:11:49.508 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Temp\LP3\servidor\apache-tomcat-8.0.24\temp
+01-Sep-2017 20:11:49.508 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.8.0_101\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32;C:\WINDOWS;C:\Users\31519717\AppData\Local\Microsoft\WindowsApps;;.
+01-Sep-2017 20:11:50.748 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+01-Sep-2017 20:11:55.835 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+01-Sep-2017 20:11:55.835 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+01-Sep-2017 20:11:55.835 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+01-Sep-2017 20:11:55.835 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 6766 ms
+01-Sep-2017 20:11:55.866 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+01-Sep-2017 20:11:55.866 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.24
+01-Sep-2017 20:11:55.897 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Temp\LP3\servidor\apache-tomcat-8.0.24\conf\Catalina\localhost\BancoWeb.xml
+01-Sep-2017 20:11:56.743 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Sep-2017 20:11:56.837 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Temp\LP3\servidor\apache-tomcat-8.0.24\conf\Catalina\localhost\BancoWeb.xml has finished in 940 ms
+01-Sep-2017 20:11:56.853 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Temp\LP3\servidor\apache-tomcat-8.0.24\webapps\docs
+01-Sep-2017 20:11:56.947 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Temp\LP3\servidor\apache-tomcat-8.0.24\webapps\docs has finished in 110 ms
+01-Sep-2017 20:11:56.947 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Temp\LP3\servidor\apache-tomcat-8.0.24\webapps\examples
+01-Sep-2017 20:11:58.510 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Temp\LP3\servidor\apache-tomcat-8.0.24\webapps\examples has finished in 1,563 ms
+01-Sep-2017 20:11:58.510 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Temp\LP3\servidor\apache-tomcat-8.0.24\webapps\host-manager
+01-Sep-2017 20:11:58.589 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Temp\LP3\servidor\apache-tomcat-8.0.24\webapps\host-manager has finished in 79 ms
+01-Sep-2017 20:11:58.589 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Temp\LP3\servidor\apache-tomcat-8.0.24\webapps\manager
+01-Sep-2017 20:11:58.667 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Temp\LP3\servidor\apache-tomcat-8.0.24\webapps\manager has finished in 78 ms
+01-Sep-2017 20:11:58.667 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Temp\LP3\servidor\apache-tomcat-8.0.24\webapps\ROOT
+01-Sep-2017 20:11:58.714 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Temp\LP3\servidor\apache-tomcat-8.0.24\webapps\ROOT has finished in 47 ms
+01-Sep-2017 20:11:58.729 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+01-Sep-2017 20:11:58.745 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+01-Sep-2017 20:11:58.745 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2901 ms
+01-Sep-2017 20:15:29.997 INFO [http-nio-8080-exec-10] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/BancoWeb]
+01-Sep-2017 20:15:30.059 INFO [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Temp\LP3\servidor\apache-tomcat-8.0.24\conf\Catalina\localhost\BancoWeb.xml
+01-Sep-2017 20:15:30.216 INFO [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Temp\LP3\servidor\apache-tomcat-8.0.24\conf\Catalina\localhost\BancoWeb.xml has finished in 157 ms
+01-Sep-2017 20:15:30.216 INFO [http-nio-8080-exec-4] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/BancoWeb]] after start() had already been called. The second call will be ignored.
+01-Sep-2017 20:28:50.508 INFO [http-nio-8080-exec-16] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Temp\LP3\servidor\apache-tomcat-8.0.24\conf\Catalina\localhost\ProjetoLP3.xml
+01-Sep-2017 20:28:50.680 INFO [http-nio-8080-exec-16] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Temp\LP3\servidor\apache-tomcat-8.0.24\conf\Catalina\localhost\ProjetoLP3.xml has finished in 172 ms
+01-Sep-2017 20:28:50.696 INFO [http-nio-8080-exec-14] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ProjetoLP3]] after start() had already been called. The second call will be ignored.
+01-Sep-2017 20:30:35.793 INFO [http-nio-8080-exec-11] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] has started
+01-Sep-2017 20:30:35.980 INFO [http-nio-8080-exec-11] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] is completed
+01-Sep-2017 20:30:36.433 INFO [http-nio-8080-exec-18] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] has started
+01-Sep-2017 20:30:36.517 INFO [http-nio-8080-exec-18] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] is completed
+01-Sep-2017 20:30:38.489 INFO [http-nio-8080-exec-14] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] has started
+01-Sep-2017 20:30:38.568 INFO [http-nio-8080-exec-14] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] is completed
+01-Sep-2017 20:30:45.302 INFO [http-nio-8080-exec-13] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] has started
+01-Sep-2017 20:30:45.380 INFO [http-nio-8080-exec-13] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] is completed
+01-Sep-2017 20:33:16.612 INFO [http-nio-8080-exec-15] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] has started
+01-Sep-2017 20:33:16.830 INFO [http-nio-8080-exec-15] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] is completed
+01-Sep-2017 20:33:17.330 INFO [http-nio-8080-exec-18] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] has started
+01-Sep-2017 20:33:17.408 INFO [http-nio-8080-exec-18] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] is completed
+01-Sep-2017 20:33:47.311 INFO [http-nio-8080-exec-29] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] has started
+01-Sep-2017 20:33:47.420 INFO [http-nio-8080-exec-29] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] is completed
+01-Sep-2017 20:36:44.545 INFO [http-nio-8080-exec-34] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] has started
+01-Sep-2017 20:36:44.654 INFO [http-nio-8080-exec-34] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] is completed
+01-Sep-2017 20:36:49.488 INFO [http-nio-8080-exec-41] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] has started
+01-Sep-2017 20:36:49.550 INFO [http-nio-8080-exec-41] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] is completed
+01-Sep-2017 20:39:08.531 INFO [http-nio-8080-exec-45] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] has started
+01-Sep-2017 20:39:08.546 WARNING [http-nio-8080-exec-45] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ProjetoLP3] registered the JDBC driver [org.apache.derby.jdbc.ClientDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+01-Sep-2017 20:39:08.656 INFO [http-nio-8080-exec-45] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] is completed
+01-Sep-2017 20:39:12.831 INFO [http-nio-8080-exec-53] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] has started
+01-Sep-2017 20:39:12.940 INFO [http-nio-8080-exec-53] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] is completed
+01-Sep-2017 20:40:45.866 INFO [http-nio-8080-exec-61] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] has started
+01-Sep-2017 20:40:45.866 WARNING [http-nio-8080-exec-61] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ProjetoLP3] registered the JDBC driver [org.apache.derby.jdbc.ClientDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+01-Sep-2017 20:40:45.975 INFO [http-nio-8080-exec-61] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] is completed
+01-Sep-2017 20:41:07.211 INFO [http-nio-8080-exec-65] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] has started
+01-Sep-2017 20:41:07.320 INFO [http-nio-8080-exec-65] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] is completed
+01-Sep-2017 20:43:26.105 INFO [http-nio-8080-exec-73] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] has started
+01-Sep-2017 20:43:26.215 INFO [http-nio-8080-exec-73] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] is completed
+01-Sep-2017 20:43:28.068 INFO [http-nio-8080-exec-75] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] has started
+01-Sep-2017 20:43:28.193 INFO [http-nio-8080-exec-75] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] is completed
+01-Sep-2017 20:43:28.605 INFO [http-nio-8080-exec-67] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] has started
+01-Sep-2017 20:43:28.730 INFO [http-nio-8080-exec-67] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] is completed
+01-Sep-2017 20:43:34.054 INFO [http-nio-8080-exec-77] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] has started
+01-Sep-2017 20:43:34.179 INFO [http-nio-8080-exec-77] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] is completed
+01-Sep-2017 20:43:36.514 INFO [http-nio-8080-exec-79] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] has started
+01-Sep-2017 20:43:36.623 INFO [http-nio-8080-exec-79] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] is completed
+01-Sep-2017 20:44:58.807 INFO [http-nio-8080-exec-83] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] has started
+01-Sep-2017 20:44:58.932 INFO [http-nio-8080-exec-83] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] is completed
+01-Sep-2017 20:45:22.088 INFO [http-nio-8080-exec-90] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] has started
+01-Sep-2017 20:45:22.182 INFO [http-nio-8080-exec-90] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] is completed
+01-Sep-2017 20:49:20.509 INFO [http-nio-8080-exec-98] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/ProjetoLP3]
+01-Sep-2017 20:49:22.676 INFO [http-nio-8080-exec-99] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BancoWeb] has started
+01-Sep-2017 20:49:22.692 WARNING [http-nio-8080-exec-99] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [BancoWeb] registered the JDBC driver [org.apache.derby.jdbc.ClientDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+01-Sep-2017 20:49:22.848 INFO [http-nio-8080-exec-99] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BancoWeb] is completed
+01-Sep-2017 20:49:25.800 INFO [http-nio-8080-exec-103] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Temp\LP3\servidor\apache-tomcat-8.0.24\conf\Catalina\localhost\ProjetoLP3.xml
+01-Sep-2017 20:49:25.956 INFO [http-nio-8080-exec-103] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Temp\LP3\servidor\apache-tomcat-8.0.24\conf\Catalina\localhost\ProjetoLP3.xml has finished in 156 ms
+01-Sep-2017 20:49:25.972 INFO [http-nio-8080-exec-95] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ProjetoLP3]] after start() had already been called. The second call will be ignored.
+01-Sep-2017 20:50:18.781 INFO [http-nio-8080-exec-101] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] has started
+01-Sep-2017 20:50:18.891 INFO [http-nio-8080-exec-101] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] is completed
+01-Sep-2017 20:50:41.821 INFO [http-nio-8080-exec-100] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] has started
+01-Sep-2017 20:50:41.931 INFO [http-nio-8080-exec-100] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] is completed
+01-Sep-2017 20:50:46.201 INFO [http-nio-8080-exec-109] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] has started
+01-Sep-2017 20:50:46.295 INFO [http-nio-8080-exec-109] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] is completed
+01-Sep-2017 20:51:28.917 INFO [http-nio-8080-exec-94] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] has started
+01-Sep-2017 20:51:29.026 INFO [http-nio-8080-exec-94] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] is completed
+01-Sep-2017 20:51:42.853 INFO [http-nio-8080-exec-109] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] has started
+01-Sep-2017 20:51:42.962 INFO [http-nio-8080-exec-109] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] is completed
+01-Sep-2017 20:51:46.104 INFO [http-nio-8080-exec-115] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] has started
+01-Sep-2017 20:51:46.197 INFO [http-nio-8080-exec-115] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] is completed
+01-Sep-2017 20:56:28.871 INFO [http-nio-8080-exec-119] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] has started
+01-Sep-2017 20:56:28.980 INFO [http-nio-8080-exec-119] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] is completed
+01-Sep-2017 20:56:30.850 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/ProjetoLP3]
+01-Sep-2017 20:56:30.850 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] has started
+01-Sep-2017 20:56:30.943 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] is completed
+01-Sep-2017 21:00:43.668 INFO [http-nio-8080-exec-131] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] has started
+01-Sep-2017 21:00:43.778 INFO [http-nio-8080-exec-131] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] is completed
+01-Sep-2017 21:01:27.452 INFO [http-nio-8080-exec-127] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] has started
+01-Sep-2017 21:01:27.577 INFO [http-nio-8080-exec-127] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] is completed
+01-Sep-2017 21:01:27.811 INFO [http-nio-8080-exec-128] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BancoWeb] has started
+01-Sep-2017 21:01:27.936 INFO [http-nio-8080-exec-128] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BancoWeb] is completed
+01-Sep-2017 21:04:18.049 INFO [http-nio-8080-exec-131] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] has started
+01-Sep-2017 21:04:18.284 INFO [http-nio-8080-exec-131] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] is completed
+01-Sep-2017 21:05:15.766 INFO [http-nio-8080-exec-143] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] has started
+01-Sep-2017 21:05:15.876 INFO [http-nio-8080-exec-143] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] is completed
+01-Sep-2017 21:10:27.666 INFO [http-nio-8080-exec-147] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] has started
+01-Sep-2017 21:10:27.775 INFO [http-nio-8080-exec-147] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] is completed
+01-Sep-2017 21:11:52.595 INFO [http-nio-8080-exec-147] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] has started
+01-Sep-2017 21:11:52.704 INFO [http-nio-8080-exec-147] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] is completed
+01-Sep-2017 21:28:24.425 INFO [http-nio-8080-exec-166] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] has started
+01-Sep-2017 21:28:24.535 INFO [http-nio-8080-exec-166] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] is completed
+01-Sep-2017 21:29:43.705 INFO [http-nio-8080-exec-171] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] has started
+01-Sep-2017 21:29:43.830 INFO [http-nio-8080-exec-171] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] is completed
+01-Sep-2017 21:31:50.098 INFO [http-nio-8080-exec-168] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] has started
+01-Sep-2017 21:31:50.207 INFO [http-nio-8080-exec-168] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] is completed
+01-Sep-2017 21:32:15.102 INFO [http-nio-8080-exec-175] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] has started
+01-Sep-2017 21:32:15.227 INFO [http-nio-8080-exec-175] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] is completed
+01-Sep-2017 21:32:36.337 INFO [http-nio-8080-exec-178] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] has started
+01-Sep-2017 21:32:36.447 INFO [http-nio-8080-exec-178] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] is completed
+01-Sep-2017 21:32:41.728 INFO [http-nio-8080-exec-180] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] has started
+01-Sep-2017 21:32:41.790 INFO [http-nio-8080-exec-180] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoLP3] is completed
+01-Sep-2017 21:40:13.021 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/ProjetoLP3]
+01-Sep-2017 21:40:13.025 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ProjetoLP3] registered the JDBC driver [org.apache.derby.jdbc.ClientDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+01-Sep-2017 21:40:13.034 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Temp\LP3\servidor\apache-tomcat-8.0.24\conf\Catalina\localhost\ProjetoLP3.xml
+01-Sep-2017 21:40:13.044 SEVERE [localhost-startStop-2] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ProjetoLP3]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:586)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1750)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@39aca70e]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4845)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4975)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Temp\ProjetoLP3\build\web] is not valid
+	at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:723)
+	at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:684)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 13 more
+
+01-Sep-2017 21:40:13.045 SEVERE [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying configuration descriptor C:\Temp\LP3\servidor\apache-tomcat-8.0.24\conf\Catalina\localhost\ProjetoLP3.xml
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ProjetoLP3]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:586)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1750)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+01-Sep-2017 21:40:13.046 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Temp\LP3\servidor\apache-tomcat-8.0.24\conf\Catalina\localhost\ProjetoLP3.xml has finished in 11 ms
+01-Sep-2017 21:40:20.292 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+01-Sep-2017 21:40:20.292 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+01-Sep-2017 21:40:20.344 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+01-Sep-2017 21:40:20.396 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+01-Sep-2017 21:40:20.417 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [BancoWeb] registered the JDBC driver [org.apache.derby.jdbc.ClientDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+01-Sep-2017 21:40:20.419 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+01-Sep-2017 21:40:20.421 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+01-Sep-2017 21:40:20.422 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+01-Sep-2017 21:40:20.423 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
