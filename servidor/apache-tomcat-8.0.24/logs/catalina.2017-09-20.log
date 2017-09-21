@@ -1,0 +1,125 @@
+20-Sep-2017 23:52:25.530 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.24
+20-Sep-2017 23:52:25.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 1 2015 20:19:55 UTC
+20-Sep-2017 23:52:25.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.24.0
+20-Sep-2017 23:52:25.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+20-Sep-2017 23:52:25.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+20-Sep-2017 23:52:25.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+20-Sep-2017 23:52:25.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_65\jre
+20-Sep-2017 23:52:25.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_65-b17
+20-Sep-2017 23:52:25.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+20-Sep-2017 23:52:25.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Lucas Hort\Desktop\PROJETO LP3\Projeto-LP3\servidor\apache-tomcat-8.0.24
+20-Sep-2017 23:52:25.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Lucas Hort\Desktop\PROJETO LP3\Projeto-LP3\servidor\apache-tomcat-8.0.24
+20-Sep-2017 23:52:25.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|LucasHort-PC
+20-Sep-2017 23:52:25.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Lucas Hort\Desktop\PROJETO LP3\Projeto-LP3\servidor\apache-tomcat-8.0.24\conf\logging.properties
+20-Sep-2017 23:52:25.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Sep-2017 23:52:25.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\Lucas Hort\Desktop\PROJETO LP3\Projeto-LP3\servidor\apache-tomcat-8.0.24\endorsed
+20-Sep-2017 23:52:25.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Lucas Hort\Desktop\PROJETO LP3\Projeto-LP3\servidor\apache-tomcat-8.0.24
+20-Sep-2017 23:52:25.535 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Lucas Hort\Desktop\PROJETO LP3\Projeto-LP3\servidor\apache-tomcat-8.0.24
+20-Sep-2017 23:52:25.535 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Lucas Hort\Desktop\PROJETO LP3\Projeto-LP3\servidor\apache-tomcat-8.0.24\temp
+20-Sep-2017 23:52:25.536 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.8.0_65\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Brackets\command;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\Lucas Hort\AppData\Local\atom\bin;C:\Users\Lucas Hort\AppData\Roaming\npm;.
+20-Sep-2017 23:52:26.671 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+20-Sep-2017 23:52:26.877 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Sep-2017 23:52:26.880 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+20-Sep-2017 23:52:26.882 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Sep-2017 23:52:26.883 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2225 ms
+20-Sep-2017 23:52:26.947 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+20-Sep-2017 23:52:26.947 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.24
+20-Sep-2017 23:52:26.963 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\Lucas Hort\Desktop\PROJETO LP3\Projeto-LP3\servidor\apache-tomcat-8.0.24\conf\Catalina\localhost\BancoWeb.xml
+20-Sep-2017 23:52:27.104 SEVERE [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/BancoWeb]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:586)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1750)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@1ccb1123]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4845)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4975)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Temp\LP3\projetos\BancoWeb\build\web] is not valid
+	at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:723)
+	at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:684)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 13 more
+
+20-Sep-2017 23:52:27.107 SEVERE [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying configuration descriptor C:\Users\Lucas Hort\Desktop\PROJETO LP3\Projeto-LP3\servidor\apache-tomcat-8.0.24\conf\Catalina\localhost\BancoWeb.xml
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/BancoWeb]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:586)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1750)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+20-Sep-2017 23:52:27.110 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Lucas Hort\Desktop\PROJETO LP3\Projeto-LP3\servidor\apache-tomcat-8.0.24\conf\Catalina\localhost\BancoWeb.xml has finished in 146 ms
+20-Sep-2017 23:52:27.110 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\Lucas Hort\Desktop\PROJETO LP3\Projeto-LP3\servidor\apache-tomcat-8.0.24\conf\Catalina\localhost\ProjetoLP3.xml
+20-Sep-2017 23:52:27.124 SEVERE [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ProjetoLP3]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:586)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1750)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@644ab747]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4845)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4975)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Temp\ProjetoLP3\build\web] is not valid
+	at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:723)
+	at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:684)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 13 more
+
+20-Sep-2017 23:52:27.125 SEVERE [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying configuration descriptor C:\Users\Lucas Hort\Desktop\PROJETO LP3\Projeto-LP3\servidor\apache-tomcat-8.0.24\conf\Catalina\localhost\ProjetoLP3.xml
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ProjetoLP3]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:586)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1750)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+20-Sep-2017 23:52:27.127 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Lucas Hort\Desktop\PROJETO LP3\Projeto-LP3\servidor\apache-tomcat-8.0.24\conf\Catalina\localhost\ProjetoLP3.xml has finished in 17 ms
+20-Sep-2017 23:52:27.129 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Lucas Hort\Desktop\PROJETO LP3\Projeto-LP3\servidor\apache-tomcat-8.0.24\webapps\docs
+20-Sep-2017 23:52:27.835 INFO [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [325] milliseconds.
+20-Sep-2017 23:52:27.880 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Lucas Hort\Desktop\PROJETO LP3\Projeto-LP3\servidor\apache-tomcat-8.0.24\webapps\docs has finished in 751 ms
+20-Sep-2017 23:52:27.880 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Lucas Hort\Desktop\PROJETO LP3\Projeto-LP3\servidor\apache-tomcat-8.0.24\webapps\examples
+20-Sep-2017 23:52:28.610 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Lucas Hort\Desktop\PROJETO LP3\Projeto-LP3\servidor\apache-tomcat-8.0.24\webapps\examples has finished in 730 ms
+20-Sep-2017 23:52:28.610 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Lucas Hort\Desktop\PROJETO LP3\Projeto-LP3\servidor\apache-tomcat-8.0.24\webapps\host-manager
+20-Sep-2017 23:52:28.679 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Lucas Hort\Desktop\PROJETO LP3\Projeto-LP3\servidor\apache-tomcat-8.0.24\webapps\host-manager has finished in 69 ms
+20-Sep-2017 23:52:28.680 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Lucas Hort\Desktop\PROJETO LP3\Projeto-LP3\servidor\apache-tomcat-8.0.24\webapps\manager
+20-Sep-2017 23:52:28.750 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Lucas Hort\Desktop\PROJETO LP3\Projeto-LP3\servidor\apache-tomcat-8.0.24\webapps\manager has finished in 70 ms
+20-Sep-2017 23:52:28.751 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Lucas Hort\Desktop\PROJETO LP3\Projeto-LP3\servidor\apache-tomcat-8.0.24\webapps\ROOT
+20-Sep-2017 23:52:28.811 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Lucas Hort\Desktop\PROJETO LP3\Projeto-LP3\servidor\apache-tomcat-8.0.24\webapps\ROOT has finished in 61 ms
+20-Sep-2017 23:52:28.827 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+20-Sep-2017 23:52:28.849 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+20-Sep-2017 23:52:28.856 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1971 ms
+20-Sep-2017 23:52:59.980 INFO [http-nio-8080-exec-10] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/ProjetoLP3]
+20-Sep-2017 23:53:00.033 INFO [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\Lucas Hort\Desktop\PROJETO LP3\Projeto-LP3\servidor\apache-tomcat-8.0.24\conf\Catalina\localhost\ProjetoLP3.xml
+20-Sep-2017 23:53:00.525 INFO [http-nio-8080-exec-3] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Sep-2017 23:53:00.537 INFO [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Lucas Hort\Desktop\PROJETO LP3\Projeto-LP3\servidor\apache-tomcat-8.0.24\conf\Catalina\localhost\ProjetoLP3.xml has finished in 504 ms
+20-Sep-2017 23:53:00.545 INFO [http-nio-8080-exec-8] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ProjetoLP3]] after start() had already been called. The second call will be ignored.

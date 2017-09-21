@@ -13,6 +13,7 @@ public class ContaDaoRelacional implements ContaDaoInterface {
     private PreparedStatement stmInserir;
     private PreparedStatement stmApagar;
     private PreparedStatement stmAtualizar;
+    private PreparedStatement stmBuscarConta;
 
     public ContaDaoRelacional(ConexaoInterface conexao) throws ConexaoException, BancoDaoException {
         Connection connection = conexao.getConnection();
@@ -26,6 +27,8 @@ public class ContaDaoRelacional implements ContaDaoInterface {
             stmApagar = connection.prepareStatement(sql);
             sql = "UPDATE contas SET saldo=? WHERE nro_conta=?";
             stmAtualizar = connection.prepareStatement(sql);
+            sql = "SELECT * FROM contas WHERE nro_conta=?";
+            stmBuscarConta = connection.prepareStatement(sql);
         } catch (SQLException ex) {
             throw new BancoDaoException("Erro ao preparar sentença SQL: " + sql);
         }
@@ -64,6 +67,7 @@ public class ContaDaoRelacional implements ContaDaoInterface {
             stmInserir.setBigDecimal(2, novaConta.getSaldo());
             ret = stmInserir.executeUpdate();
         } catch (SQLException ex) {
+            ret = -1;
             throw new BancoDaoException("Erro na operação de inserir nova conta!");
         }
         return ret;
@@ -84,4 +88,21 @@ public class ContaDaoRelacional implements ContaDaoInterface {
         }
         return contas;
     }
+    
+    @Override
+    public Conta buscarContaNumero(Long id) throws BancoDaoException {
+        Conta c = null;
+        try {
+            stmBuscarConta.setLong(1, id);
+            ResultSet resultados = stmBuscarConta.executeQuery();
+            while (resultados.next()) {
+                c = new Conta(resultados.getLong("nro_conta"),
+				    resultados.getBigDecimal("saldo"));
+            }
+        } catch (SQLException ex) {
+            throw new BancoDaoException("Erro ao executar consulta de conta por numero");
+        }
+        return c;
+    }
+    
 }

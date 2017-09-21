@@ -38,7 +38,7 @@ public class ListaController extends AbstractController {
                     ex.printStackTrace();
                 }
             }
-            this.setReturnPage("/index.jsp");
+            this.setReturnPage("/listarContas.jsp");
             this.getRequest().setAttribute("lista_contas", contas);
         } catch (Exception ex) {
             Logger.getLogger(ListaController.class.getName()).log(Level.SEVERE, null, ex);

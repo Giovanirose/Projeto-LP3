@@ -1,5 +1,5 @@
 %--
-Document : index
+Document : listarContas
 Created on : 07/04/2014, 20:49:49
 --%>
 <%@page import="bancodao.Conta"%>
@@ -28,5 +28,7 @@ Created on : 07/04/2014, 20:49:49
             <%}%>
         </table>
         <%}%>
+        <br>
+        <input type="button" value="Voltar" onClick="history.go(-1)">
     </body>
 </html>

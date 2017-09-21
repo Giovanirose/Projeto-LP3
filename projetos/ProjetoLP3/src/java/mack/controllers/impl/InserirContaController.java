@@ -4,14 +4,16 @@ import bancodao.BancoDaoException;
 import bancodao.ConexaoException;
 import bancodao.ConexaoInterface;
 import bancodao.ConexaoJavaDb;
+import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import mack.controllers.AbstractController;
 import bancodao.Conta;
 import bancodao.ContaDaoInterface;
 import bancodao.ContaDaoRelacional;
+import java.math.BigDecimal;
 
-public class BuscarContaController extends AbstractController {
+public class InserirContaController extends AbstractController {
 
     public void execute() {
         try {
@@ -19,8 +21,10 @@ public class BuscarContaController extends AbstractController {
                     "localhost", 1527, "app", "app", "sistema_bancario");
             boolean conexaoEstabelecida = false;
             ContaDaoInterface dao = null;
-            Conta conta = null;
-            Long id = Long.parseLong(this.getRequest().getParameter("numero"));
+            Long nro_conta = Long.parseLong(this.getRequest().getParameter("numero"));
+            BigDecimal saldo = new BigDecimal(this.getRequest().getParameter("saldo"));
+            Conta conta = new Conta(nro_conta,saldo);
+            int result = -1;
             try {
                 dao = new ContaDaoRelacional(conexao);
                 conexaoEstabelecida = true;
@@ -31,14 +35,13 @@ public class BuscarContaController extends AbstractController {
             }
             if(conexaoEstabelecida){                
                 try{
-                    conta = dao.buscarContaNumero(id);
+                    result = dao.inserir(conta);
                 }catch(BancoDaoException ex){
                     ex.printStackTrace();
                 }
             }
-            this.setReturnPage("/buscarConta.jsp");
-            this.getRequest().setAttribute("buscar_conta", conta);
-            this.getRequest().setAttribute("nro_conta", id);
+            this.setReturnPage("/inserirConta.jsp");
+            this.getRequest().setAttribute("inserir_conta", result);
         } catch (Exception ex) {
             Logger.getLogger(ListaController.class.getName()).log(Level.SEVERE, null, ex);
         }

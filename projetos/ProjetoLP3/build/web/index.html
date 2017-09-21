@@ -5,14 +5,38 @@
         <title>Pagina Principal</title>
     </head>
     <body>
-        <h1>Exemplo de uso de FrontController</h1>
-
-        <a href="FrontControllerServlet?control=Lista">Lista</a>
+        <h1>PROJETO LP3</h1>
         
-        <h1>Busca de um nova conta:</h1>
+        <h2>LISTAR CONTAS</h2>
+        <a href="FrontControllerServlet?control=Lista">Lista de contas</a>
+        <br>
+        
+        <h2>INSERIR CONTA</h2>
+        <form method ="POST" action="FrontControllerServlet?control=InserirConta">            
+            <p>Número: <input type="text" name="numero"></p>
+            <p>Saldo: <input type="text" name="saldo"></p>
+            <p><input type="submit"></p>
+        </form>
+         
+        <h2>REMOVER CONTA</h2>
+        <form method ="POST" action="FrontControllerServlet?control=RemoverConta">            
+            <p>Número: <input type="text" name="numero"></p>
+            <p><input type="submit"></p>
+        </form>  
+        
+        <h2>BUSCAR CONTA POR NUMERO</h2>
         <form method ="POST" action="FrontControllerServlet?control=BuscarConta">
             <p>Número: <input type="text" name="numero"></p>
             <p><input type="submit"></p>
         </form>
+        
+        <h2>ATUALIZAR CONTA</h2>
+        <form method ="POST" action="FrontControllerServlet?control=AtualizarConta">
+            <p>Número: <input type="text" name="numero"></p>
+            <p>Novo Saldo: <input type="text" name="saldo"></p>
+            <p><input type="submit"></p>
+        </form>
+        
+        
     </body>
 </html>
