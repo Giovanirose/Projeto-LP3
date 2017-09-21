@@ -1,14 +1,14 @@
-Wed Sep 20 23:47:03 BRT 2017 : Apache Derby Servidor de Rede - 10.13.1.1 - (1765088) iniciado e pronto para aceitar conexões na porta 1527 em {3}
+Thu Sep 21 15:37:28 BRT 2017 : Apache Derby Servidor de Rede - 10.13.1.1 - (1765088) iniciado e pronto para aceitar conexões na porta 1527 em {3}
 ----------------------------------------------------------------
-Wed Sep 20 23:53:04 BRT 2017:
- Inicializando o Derby versão The Apache Software Foundation - Apache Derby - 10.13.1.1 - (1765088): instância a816c00e-015e-a254-d768-ffffcde6681d
-no diretório de banco de dados C:\Users\Lucas Hort\Desktop\PROJETO LP3\Projeto-LP3\SGBD\db\sistema_bancario 
+Thu Sep 21 15:45:40 BRT 2017:
+ Inicializando o Derby versão The Apache Software Foundation - Apache Derby - 10.13.1.1 - (1765088): instância a816c00e-015e-a5ba-f8ec-00000a02bf67
+no diretório de banco de dados C:\Users\Lucas Hort\Desktop\Projeto-LP3\SGBD\db\sistema_bancario 
 
 java.vendor=Oracle Corporation
-java.runtime.version=1.8.0_131-b11
-user.dir=C:\Users\Lucas Hort\Desktop\PROJETO LP3\Projeto-LP3\SGBD\db
+java.runtime.version=1.8.0_121-b13
+user.dir=C:\Users\Lucas Hort\Desktop\Projeto-LP3\SGBD\db
 os.name=Windows 7
 os.arch=amd64
 os.version=6.1
-derby.system.home=C:\Users\Lucas Hort\Desktop\PROJETO LP3\Projeto-LP3\SGBD\db
+derby.system.home=C:\Users\Lucas Hort\Desktop\Projeto-LP3\SGBD\db
 Carregador de classe do banco de dados iniciado - derby.database.classpath=''

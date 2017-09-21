@@ -2,40 +2,64 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Pagina Principal</title>
+        <title>Home</title>        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="assets/css/layout.css">
     </head>
     <body>
-        <h1>PROJETO LP3</h1>
+        <div class="container" >
+            <div class="titulo">
+                <h1 class="display-2">PROJETO LP3</h1>
+                <p><i>feito</i> por: Lucas Hortencio e Gabriel Paggio</p>
+            </div>
+            
+            <div class="form-group listar-conta">
+                <h2>LISTAR CONTAS</h2>
+                <a href="FrontControllerServlet?control=Lista">Lista de contas</a>
+            </div>
+            
+            
+            <h2>INSERIR CONTA</h2>
+                <form method ="POST" action="FrontControllerServlet?control=InserirConta">            
+                    <div class="form-group col-md-6">
+                        <p>Número: <input type="text" name="numero" placeholder="Digite um número de conta" class="form-control" required></p>
+                        <p>Saldo: <input type="text" name="saldo" placeholder="Digite um valor para saldo" class="form-control" required></p>
+                        <p><button type="submit" class="btn btn-default">Enviar</button></p>
+                    </div>
+                </form>
+            
+            
+
+            <h2>REMOVER CONTA</h2>
+            <form method ="POST" action="FrontControllerServlet?control=RemoverConta">
+                <div class="form-group col-md-6">
+                    <p>Número: <input type="text" name="numero" placeholder="Digite um número de conta" class="form-control" required></p>
+                    <p><button type="submit" class="btn btn-default">Enviar</button></p>
+                </div>
+            </form>  
+
+            
+            <h2>BUSCAR CONTA POR NUMERO</h2>
+            <form method ="POST" action="FrontControllerServlet?control=BuscarConta">
+                <div class="form-group col-md-6">
+                    <p>Número: <input type="text" name="numero" placeholder="Digite um número de conta" class="form-control" required></p>
+                    <p><button type="submit" class="btn btn-default">Enviar</button></p>
+                </div>
+            </form>
+
+            <h2>ATUALIZAR CONTA</h2>
+            <form method ="POST" action="FrontControllerServlet?control=AtualizarConta">
+                <div class="form-group col-md-6">
+                    <p>Número: <input type="text" name="numero" placeholder="Digite um número de conta" class="form-control" required></p>
+                    <p>Novo Saldo: <input type="text" name="saldo" placeholder="Digite um valor para saldo" class="form-control" required></p>
+                    <p><button type="submit" class="btn btn-default">Enviar</button></p>
+                </div>
+            </form>
+        </div>
         
-        <h2>LISTAR CONTAS</h2>
-        <a href="FrontControllerServlet?control=Lista">Lista de contas</a>
-        <br>
         
-        <h2>INSERIR CONTA</h2>
-        <form method ="POST" action="FrontControllerServlet?control=InserirConta">            
-            <p>Número: <input type="text" name="numero"></p>
-            <p>Saldo: <input type="text" name="saldo"></p>
-            <p><input type="submit"></p>
-        </form>
-         
-        <h2>REMOVER CONTA</h2>
-        <form method ="POST" action="FrontControllerServlet?control=RemoverConta">            
-            <p>Número: <input type="text" name="numero"></p>
-            <p><input type="submit"></p>
-        </form>  
         
-        <h2>BUSCAR CONTA POR NUMERO</h2>
-        <form method ="POST" action="FrontControllerServlet?control=BuscarConta">
-            <p>Número: <input type="text" name="numero"></p>
-            <p><input type="submit"></p>
-        </form>
-        
-        <h2>ATUALIZAR CONTA</h2>
-        <form method ="POST" action="FrontControllerServlet?control=AtualizarConta">
-            <p>Número: <input type="text" name="numero"></p>
-            <p>Novo Saldo: <input type="text" name="saldo"></p>
-            <p><input type="submit"></p>
-        </form>
         
         
     </body>
