@@ -20,6 +20,10 @@
         <servlet-name>RemoverContaController</servlet-name>
         <servlet-class>mack.controllers.impl.RemoverContaController</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>AtualizarContaController</servlet-name>
+        <servlet-class>mack.controllers.impl.AtualizarContaController</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>FrontControllerServlet</servlet-name>
         <url-pattern>/FrontControllerServlet</url-pattern>
@@ -39,6 +43,10 @@
     <servlet-mapping>
         <servlet-name>RemoverContaController</servlet-name>
         <url-pattern>/RemoverContaController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AtualizarContaController</servlet-name>
+        <url-pattern>/AtualizarContaController</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
