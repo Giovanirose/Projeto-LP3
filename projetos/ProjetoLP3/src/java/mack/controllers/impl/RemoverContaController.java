@@ -4,14 +4,11 @@ import bancodao.BancoDaoException;
 import bancodao.ConexaoException;
 import bancodao.ConexaoInterface;
 import bancodao.ConexaoJavaDb;
-import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import mack.controllers.AbstractController;
-import bancodao.Conta;
 import bancodao.ContaDaoInterface;
 import bancodao.ContaDaoRelacional;
-import java.math.BigDecimal;
 
 public class RemoverContaController extends AbstractController {
 
@@ -39,7 +36,7 @@ public class RemoverContaController extends AbstractController {
                 }
             }
             this.setReturnPage("/removerConta.jsp");
-            this.getRequest().setAttribute("remover_conta)", result);
+            this.getRequest().setAttribute("remover_conta", result);
         } catch (Exception ex) {
             Logger.getLogger(ListaController.class.getName()).log(Level.SEVERE, null, ex);
         }

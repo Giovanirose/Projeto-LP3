@@ -67,7 +67,6 @@ public class ContaDaoRelacional implements ContaDaoInterface {
             stmInserir.setBigDecimal(2, novaConta.getSaldo());
             ret = stmInserir.executeUpdate();
         } catch (SQLException ex) {
-            ret = -1;
             throw new BancoDaoException("Erro na operação de inserir nova conta!");
         }
         return ret;
