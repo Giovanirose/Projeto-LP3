@@ -21,7 +21,7 @@ Created on : 20/09/2017, 20:49:49
         <div class="container titulo">
             <%
                 int result = (Integer) request.getAttribute("remover_conta");
-                if (result != -1) {
+                if (result != 0) {
             %>
             <h1>Conta Removida com Sucesso!</h1>
 

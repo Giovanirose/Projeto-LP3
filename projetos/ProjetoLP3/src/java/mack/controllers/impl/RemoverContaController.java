@@ -19,7 +19,8 @@ public class RemoverContaController extends AbstractController {
             boolean conexaoEstabelecida = false;
             ContaDaoInterface dao = null;
             Long nro_conta = Long.parseLong(this.getRequest().getParameter("numero"));
-            int result = -1;
+            System.out.println(nro_conta);
+            int result = 0;
             try {
                 dao = new ContaDaoRelacional(conexao);
                 conexaoEstabelecida = true;
@@ -35,6 +36,7 @@ public class RemoverContaController extends AbstractController {
                     ex.printStackTrace();
                 }
             }
+            System.out.println(result);
             this.setReturnPage("/removerConta.jsp");
             this.getRequest().setAttribute("remover_conta", result);
         } catch (Exception ex) {

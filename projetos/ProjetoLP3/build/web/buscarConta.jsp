@@ -17,13 +17,14 @@ Created on : 20/09/2017, 20:49:49
         <link rel="stylesheet" type="text/css" href="assets/css/layout.css">
         
     </head>
-    <body>        
+    <body>
+       <div class="container titulo">
         <%
             Conta conta = (Conta) request.getAttribute("buscar_conta");
             Long nro_conta = (Long) request.getAttribute("nro_conta");
             if (conta != null) {
         %>
-        <div class="container titulo">
+        
             <h1>Buscar Conta</h1>
             <table class="table table-striped">
                 <thead>
