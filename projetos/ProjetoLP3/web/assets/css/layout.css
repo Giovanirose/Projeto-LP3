@@ -15,3 +15,13 @@ and open the template in the editor.
     padding: 10px;
     text-align: center;
 }
+.listar-conta a{
+    margin-left:20px;
+    font-size: 20px;
+}
+
+
+.btn:hover, .btn:active:focus,.btn:focus, .btn:active, .btn.active, .open>.dropdown-toggle.btn {
+ border-color: #ffe6e6; /*set the color you want here*/
+}
+
